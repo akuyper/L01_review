@@ -1,3 +1,6 @@
+### Review Lab (L01)
+### Data Science III (STAT 301-3) - Spring 2018
+
 # Load packages
 library(tidyverse)
 library(modelr)
@@ -5,7 +8,8 @@ library(modelr)
 # Read in data
 wildfire_dat <- read_csv("data/wildfires.csv")
 
-# Models to examine
+# Candidate models
+
 # Model 1
 mod01 <- function(df){
   lm(burned ~ . - wlf, data = df)

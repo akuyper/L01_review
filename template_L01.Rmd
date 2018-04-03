@@ -1,18 +1,29 @@
-# Review Lab (L01)
+---
+title: "Review Lab (L01)"
+author: "Data Science III (STAT 301-3)"
+date: "April 3rd, 2018"
+output: html_document
+---
 
-Download the repository as a zip folder and begin a R project for this lab. The zip folder will contain instructions - seen below - and template to get a Rmd file started.
-
-## Overview
+# Overview
 
 The goal of this lab is to review concepts and techniques from previous quarters. 
 
-## Datasets 
+# Datasets 
 
 We will be utilizing `wildfires.csv` dataset contained in the **data** subdirectory.  
 
-## Exercises
+# Exercises
 
 Please complete the following exercises. Be sure your solutions are clearly indicated and that the document is neatly formatted.
+
+#### Load Packages
+
+```{r, message = FALSE}
+# Loading package(s)
+
+```
+<br>
 
 #### Exercise 1 
 The total area burned by a wildfire is of great concern to government planners. This is captured by the variable `burned` in the `wildfires` dataset. The `starter_scipt.R` file provides two candidate models for estimating the total area burned by a wildfire (`burned`). 
