@@ -21,7 +21,7 @@ Using tidyverse techniques, preform 10-fold cross validation to estimate each mo
 <br><br>
 
 #### Exercise 2
-Explain the concept of bias-variance trade-off when choosing between the validation set approach, leave-one-out cross-validation (LOOCV), or $k$-fold cross-validation for estimating test MSE.  
+Explain the concept of bias-variance trade-off when choosing between the validation set approach, leave-one-out cross-validation (LOOCV), or k-fold cross-validation for estimating test MSE.  
 
 ### Challenge (Not Mandatory)
 
