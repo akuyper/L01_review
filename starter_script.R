@@ -6,7 +6,9 @@ library(tidyverse)
 library(modelr)
 
 # Read in data
-wildfire_dat <- read_csv("data/wildfires.csv")
+wildfire_dat <- read_csv("data/wildfires.csv") %>%
+  mutate(winddir = factor(winddir, levels = c("N", "NE", "E", "SE", "S", "SW", "W", "NW")),
+         traffic = factor(traffic, levels = c("lo", "med", "hi")))
 
 # Candidate models
 
