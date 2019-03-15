@@ -1,4 +1,4 @@
-# Review Lab (L01)
+# L01 Review
 
 Download the repository as a zip folder and begin a R project for this lab. The zip folder will contain instructions - seen below - and template to get a Rmd file started.
 
