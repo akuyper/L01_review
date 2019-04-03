@@ -33,6 +33,14 @@ Using tidyverse techniques, preform 10-fold cross validation to estimate each mo
 
 #### Exercise 2
 Explain the concept of bias-variance trade-off when choosing between the validation set approach, leave-one-out cross-validation (LOOCV), or $k$-fold cross-validation for estimating test MSE.  
+<br><br>
+
+#### Exercise 3
+A wildlife protection area is located in the park from which this data was collected, and is denoted by `wlf` in the dataset. The `starter_scipt.R` file provides two candidate models for predicting whether fires reach this wildlife area. 
+
+Using tidyverse techniques, preform 10-fold cross validation to estimate each model's misclassification rate (e.g., test misclassification rate) in order to determine which model might be superior. **Hint: Remember to set a seed.**
+<br><br>
+
 
 ### Challenge (Not Mandatory)
 
