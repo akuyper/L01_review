@@ -14,6 +14,9 @@ We will be utilizing `wildfires.csv` dataset contained in the **data** subdirect
 
 Please complete the following exercises. Be sure your solutions are clearly indicated and that the document is neatly formatted.
 
+In these exercises, you will be asked to train and tune a few models. The results of these exercises will be used in subsequent assignments as a comparison to alternative statistical learning approaches. Thus, we **highly** recommend that you take the time to **properly tune** these models so that they are (up to a good approximation) the best they can be.
+
+
 #### Exercise 1 
 The total area burned by a wildfire is of great concern to government planners. This is captured by the variable `burned` in the `wildfires` dataset. The `starter_scipt.R` file provides two candidate models for estimating the total area burned by a wildfire (`burned`). 
 
