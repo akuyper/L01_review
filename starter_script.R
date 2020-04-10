@@ -36,5 +36,5 @@ mod01_wlf_fn <- function(df){
 
 # Model 2
 mod02_wlf_fn <- function(df){
-  glm(wlf ~ poly(windspd, 2) + winddir + poly(rain, 2) + poly(vulnerable, 3) + x*y, data = df)
+  glm(wlf ~ poly(windspd, 2) + winddir + poly(rain, 2) + poly(vulnerable, 3) + x*y, data = df, family = binomial)
 }
