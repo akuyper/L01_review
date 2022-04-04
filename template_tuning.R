@@ -5,6 +5,9 @@ library(tidyverse)
 library(tidymodels)
 library(tictoc)
 
+# handle common conflicts
+tidymodels_prefer()
+
 # load required objects ----
 
 

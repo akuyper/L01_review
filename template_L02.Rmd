@@ -1,17 +1,24 @@
 ---
 title: "L02 More Models"
-subtitle: "Data Science III (STAT 301-3)"
+subtitle: "Data Science 3 with R (STAT 301-3)"
 author: "YOUR NAME HERE"
-output: 
   html_document:
     toc: true
     toc_float: true
     highlight: "tango"
+    code_folding: "show"
 ---
+
+<!-- Set global options for R code chunks -->
+```{r global-settings, include=FALSE}
+knitr::opts_chunk$set(
+  warning = FALSE, message = FALSE
+)
+```
 
 ## Overview
 
-The main goals of this lab are (1) review and practice the application of machine learning within the `tyidymodels` framework and (2) introduce and explore a few new model types.
+The main goals of this lab are (1) review and practice the application of machine learning within the `tidymodels` framework and (2) introduce and explore a few new model types.
 
 ## Dataset
 
@@ -42,7 +49,7 @@ Using the `tidymodels` framework, pick the best model from the following candida
 
 5.  Support vector machine (polynomial)
 
-    -   tune `cost`, `degree`, and `scale_factor` (default values a sufficient, free to change if you want)
+    -   tune `cost`, `degree`, and `scale_factor` (default values are sufficient, free to change if you want)
 
 6.  Support vector machine (radial basis function)
 
@@ -51,7 +58,7 @@ Using the `tidymodels` framework, pick the best model from the following candida
 7.  Single Layer Neural Network (multilayer perceptron --- mlp)
 
     -   tune `hidden_units` and `penalty` (default values a sufficient, free to change if you want)
-    -   `nnet` for the engine will be easiest, but might want to try `keras` if you can get it installed ([Keras Installation](https://tensorflow.rstudio.com/guide/keras/)).
+    -   `nnet` for the engine will be easiest, Alternatively, you might want to try `keras` if you can get it installed ([Keras Installation](https://tensorflow.rstudio.com/guide/keras/)).
     
 8. Multivariate adaptive regression splines (MARS)
 
@@ -63,12 +70,10 @@ Some general notes:
 - Make sure you specify which performance measure you are using to pick the best model.
 - Almost all work should be done in R scripts and you will only be reporting the results (we will see the R scripts in your repo).
 - Suggest using jobs.
-- A suggest basic layout is provided. 
+- A basic layout is suggested/provided. 
 - We also want to collect how long it takes the tuning process for each model type. We can use `tictoc` and base code is provided in the `template_tune.R`.
 
 ## What should be turned in
-
-**Should reformat this document to form a neat, organized, and short report.**
 
 A short write-up that includes:
 

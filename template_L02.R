@@ -2,6 +2,9 @@
 library(tidymodels)
 library(tidyverse)
 
+# handle common conflicts
+tidymodels_prefer()
+
 # Seed
 set.seed(3013)
 
