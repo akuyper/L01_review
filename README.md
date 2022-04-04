@@ -6,5 +6,5 @@ This lab focuses on practicing and exploring the use of several different model 
 
 After creating a github repo and connecting it to RStudio, students should work through the instructions provided in `LO2_many_models.html`. A template is provided (rename as lastname_firstname_L01.Rmd).
 
-Students will need to submit their kitted html file which should contain a link to their github repo. See canvas for submission details.
+Students will need to submit their knitted html file which should contain a link to their github repo. See canvas for submission details.
 
